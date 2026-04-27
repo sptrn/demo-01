@@ -5,9 +5,10 @@ This guide provides a step-by-step process for installing the latest open-source
                                                                                                                                                                                                   
 ---                                                                                                                                                                                              
 <p>                                                                                                                                                                                                   
-<strong style="color: maroon;">Step 1: Install the MySQL Repository</strong>                                                                                                                                                             
+<strong style="color: SlateBlue;">Step 1: Install the MySQL Repository</strong>                                                                                                                                                             
+<br>
 Oracle Linux 9 includes MySQL in its default AppStream repository, but it is often an older version. Add the official MySQL Community repository:                                                
-                                                                                                                                                                                                   
+</br>                                                                                                                                                                                                   
 <div style="background-color: #f4f4f4; border-radius: 10px; padding: 15px; border: 1px solid #ddd;">                                                                                             
 <code>sudo dnf install -y https://dev.mysql.com/get/mysql84-community-release-el9-1.noarch.rpm</code>                                                                                            
 </div>                                                                                                                                                                                           
