@@ -5,7 +5,7 @@ This guide provides a step-by-step process for installing the latest open-source
                                                                                                                                                                                                   
 ---                                                                                                                                                                                              
 <p>                                                                                                                                                                                                   
-<strong style="color: maroon;">Step 1: Install the MySQL Repository</strong>                                                                                                                                                             
+Step 1: Install the MySQL Repository                                                                                                                                                             
 Oracle Linux 9 includes MySQL in its default AppStream repository, but it is often an older version. Add the official MySQL Community repository:                                                
                                                                                                                                                                                                    
 <div style="background-color: #f4f4f4; border-radius: 10px; padding: 15px; border: 1px solid #ddd;">                                                                                             
@@ -52,3 +52,4 @@ Run the security script. You will need the password from Step 5.
 <code>sudo mysql_secure_installation</code>                                                                                                                                                      
 </div>                                                                                                                                                                                           
 </p>
+EOF
